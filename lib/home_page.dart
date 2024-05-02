@@ -14,7 +14,14 @@ class HomePage extends StatelessWidget {
             height: 50,
           ),
           Row(
-            children: [],
+            children: [
+              Container(
+                height: 250,
+                width: 250,
+                decoration: BoxDecoration(
+                    color: Colors.red, borderRadius: BorderRadius.circular(25)),
+              )
+            ],
           )
         ],
       ),
